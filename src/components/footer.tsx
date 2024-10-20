@@ -10,7 +10,7 @@ const Footer = () => {
         {/* start */}
         <div className="col-span-1 md:col-span-2">
           <a href="/" className="">
-            <img src="/logo.png" alt="logo" className="w-96" />
+            <img src="/logo.webp" alt="logo" className="w-96" />
           </a>
           <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray pt-[18px] pb-[33px]">
             Parque de Zona Franca ofreciendo naves industriales para exportación de bienes y servicios en la República Dominicana.

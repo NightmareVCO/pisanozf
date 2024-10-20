@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="max-w-[1200px] px-12 border-b border-primary-100 border-1 bg-white xl:px-0 m-auto w-full py-4 flex justify-between items-center">
       <a href="/">
         {" "}
-        <img src="/logo.png" alt="logo" className="w-96" />
+        <img src="/logo.webp" alt="logo" className="w-96" />
       </a>
 
       {/* Nav List for Desktop */}

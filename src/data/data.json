@@ -64,32 +64,32 @@
   "services": [
     {
       "name": "Control de Entrada",
-      "img": "/services/control-de-entrada.jpg",
+      "img": "/services/control-de-entrada.webp",
       "info": "En el control de entrada nos aseguramos de que todo el acceso al parque sea controlado y autorizado."
     },
     {
       "name": "Oficina de Visitantes",
-      "img": "/services/oficina-de-visitantes.jpg",
+      "img": "/services/oficina-de-visitantes.webp",
       "info": "En la oficina de visitantes, nos encargamos de validar la entrada de visitantes al parque, mediante la autorización de las empresas."
     },
     {
       "name": "Oficina de Reclutamiento",
-      "img": "/services/oficina-de-reclutamiento.jpg",
+      "img": "/services/oficina-de-reclutamiento.webp",
       "info": "En la oficina de reclutamiento, recibimos los currículums de los interesados en trabajar en el parque, asignándolos a las empresas que lo requieran."
     },
     {
       "name": "Centro de entrenamiento y capacitación",
-      "img": "/services/ceecapi.jpg",
+      "img": "/services/ceecapi.webp",
       "info": "En el centro de entrenamiento y capacitación, nos encargamos de capacitar a los trabajadores de las empresas del parque y comunidades aledañas, en temas de seguridad, salud ocupacional, entre otros."
     },
     {
       "name": "Estación de Bomberos",
-      "img": "/services/estacion-de-bomberos.jpg",
+      "img": "/services/estacion-de-bomberos.webp",
       "info": "Contamos con una estación de bomberos, equipada con todo lo necesario para atender cualquier emergencia."
     },
     {
       "name": "Red Contra Incendios",
-      "img": "/services/red-contra-incendios.jpg",
+      "img": "/services/red-contra-incendios.webp",
       "info": "Nuestra red contra incendios, cuenta con hidrantes y mangueras, distribuidos estratégicamente en todo el parque."
     }
   ],
