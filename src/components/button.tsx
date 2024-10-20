@@ -11,7 +11,7 @@ const Button = (props: ButtonProps) => {
   const { variant = "primary", text = "Default Text", type = "button" } = props;
 
   const defaultStyles =
-    "rounded-[18px] flex capitalize items-center justify-center gap-[9px] hover:scale-105 transition-all duration-300 w-fit text-white text-base lg:text-lg font-semibold font-['Jost'] leading-snug tracking-tight px-10 py-5 md:px-[54px] md:py-[26px]";
+    "rounded-[18px] flex capitalize items-center justify-center gap-[9px] hover:scale-105 transition-all duration-300 w-fit text-white text-base lg:text-lg font-semibold font-['Jost'] leading-snug tracking-tight px-4 py-5 md:px-[54px] md:py-[26px]";
   const bgClass = variant === "primary" ? "bg-primary-100" : "bg-primary-400";
   const className = `${defaultStyles} ${bgClass}`;
 

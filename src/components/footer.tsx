@@ -6,7 +6,7 @@ import Twitter from "../icons/twitter.tsx";
 const Footer = () => {
   return (
     <footer className="mt-[135px] w-full border-t border-primary-100 ">
-      <div className="grid w-full grid-cols-1 gap-6 px-10 pt-10 pb-10 mx-auto bg-white lg:px-28 lg:grid-cols-5 md:grid-cols-2">
+      <div className="grid w-full grid-cols-1 gap-6 px-4 pt-10 pb-10 mx-auto bg-white lg:px-28 lg:grid-cols-5 md:grid-cols-2">
         {/* start */}
         <div className="col-span-1 md:col-span-2">
           <a href="/" className="">
