@@ -22,7 +22,7 @@ const Navbar = () => {
             Inicio
           </a>
           <a href="/services" className={linkStyle}>
-            Servicos
+            Servicios
           </a>
           <a href="/blog" className={linkStyle}>
             Blog
@@ -64,7 +64,7 @@ const Navbar = () => {
           className="flex flex-col fixed h-screen bg-white w-[75%] md:w-[90%] text-black bottom-0 left-0 gap-6 items-center justify-center z-50"
         >
           <a href="/" className={linkStyle}>
-            Home
+            Inicio
           </a>
           <a href="/services" className={linkStyle}>
             Servicios
