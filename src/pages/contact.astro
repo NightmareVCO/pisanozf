@@ -1,0 +1,66 @@
+---
+import MainLayout from "../layouts/main-layout.astro";
+import ContactInfo from "../components/contact-box.tsx";
+import ContactForm from "../components/contact-form.tsx";
+---
+
+<MainLayout title="Contacto | Pisano Zona Franca">
+  <!-- Intro Section -->
+  <section
+    class="flex items-end justify-center w-full h-full px-10 lg:px-28 pt-[50px]"
+  >
+    <div
+      class="py-[30px] lg:py-[41px] px-[60px] lg:px-[152px] flex flex-col justify-center items-center bg-primary-100/80 rounded-tl-[37px] rounded-tr-[37px] gap-2.5"
+    >
+      <h1
+        class="text-[30px] leading-[40px] lg:text-[50px] lg:leading-[62px] font-dm capitalize text-primary-200"
+      >
+        Contacta con nosotros
+      </h1>
+      <p
+        class="text-base lg:text-[22px] lg:leading-[33px] tracking-tight font-jost text-white"
+      >
+        Si tienes alguna duda o pregunta, no dudes en contactarnos. Estamos aquí
+        para ayudarte. Puedes llenar el formulario de contacto, llamarnos,
+        enviar un correo o visitarnos.
+      </p>
+    </div>
+  </section>
+
+  <section
+    class="lg:max-w-[1200px] flex flex-col gap-8 lg:gap-10 px-12 xl:px-0 w-full mx-auto"
+  >
+    <!-- main section -->
+    <div
+      class="grid grid-cols-1 gap-[55px] pt-20 lg:grid-cols-3 place-content-center"
+    >
+      <ContactInfo />
+      <ContactForm />
+    </div>
+  </section>
+
+  <section
+    class="lg:max-w-[1200px] flex flex-col gap-8 lg:gap-10 py-20 px-12 xl:px-0 w-full mx-auto"
+  >
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.769028183715!2d-70.76258082386971!3d19.508570538248502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1c6ff2d475c27%3A0xf8689d4e85f431d5!2sPisano%20Zona%20Franca%20-%20Parque%20Industrial%20Santiago%20Norte!5e0!3m2!1ses-419!2sdo!4v1729284753365!5m2!1ses-419!2sdo"
+      class="w-full h-[500px] lg:h-[600px] rounded-2xl"
+      style="border:0;"
+      allowfullscreen="true"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+</MainLayout>
+
+<style>
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+</style>
