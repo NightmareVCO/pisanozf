@@ -9,7 +9,7 @@ const Navbar = () => {
   const linkStyle = "text-2xl leading-6 font-jost text-primary-300 hover:text-primary-400 hover:scale-105 transition-transform-all duration-300";
 
   return (
-    <div className="max-w-[1200px] px-12 border-b border-primary-100 border-1 bg-white xl:px-0 m-auto w-full py-4 flex justify-between items-center">
+    <div className="flex items-center justify-between w-full max-w-full px-4 py-4 m-auto bg-white border-b-2 lg:px-28 border-primary-100">
       <a href="/">
         {" "}
         <img src="/logo.webp" alt="logo" className="w-96" />
